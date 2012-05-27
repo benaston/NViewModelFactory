@@ -12,7 +12,7 @@ Example of use:
 
 	//inject the view model factory into your controller using your IOC container, invoke 
 	//and send the result to the view engine...
-	public virtual ActionResult Index() {
+	public virtual ActionResult MyAction() {
 		return View(_myViewModelFactory.CreateModel());
 	}
 
