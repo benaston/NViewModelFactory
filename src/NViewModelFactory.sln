@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NViewModelFactory", "NViewModelFactory\NViewModelFactory.csproj", "{FB720FA8-0190-443F-BB99-44291D2A062A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NViewModelFactory.Test.Fast", "NViewModelFactory.Test.Fast\NViewModelFactory.Test.Fast.csproj", "{5F600D3E-BF8B-4ECE-BDB2-C57538870596}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2F0CED28-33F2-4862-A9B1-D18EAABB413F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB720FA8-0190-443F-BB99-44291D2A062A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB720FA8-0190-443F-BB99-44291D2A062A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB720FA8-0190-443F-BB99-44291D2A062A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB720FA8-0190-443F-BB99-44291D2A062A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB720FA8-0190-443F-BB99-44291D2A062A}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{FB720FA8-0190-443F-BB99-44291D2A062A}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{5F600D3E-BF8B-4ECE-BDB2-C57538870596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F600D3E-BF8B-4ECE-BDB2-C57538870596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F600D3E-BF8B-4ECE-BDB2-C57538870596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F600D3E-BF8B-4ECE-BDB2-C57538870596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F600D3E-BF8B-4ECE-BDB2-C57538870596}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{5F600D3E-BF8B-4ECE-BDB2-C57538870596}.Staging|Any CPU.Build.0 = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
